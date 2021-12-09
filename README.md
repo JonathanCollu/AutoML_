@@ -1,1 +1,5 @@
 # AutoML_
+This project aims to replicate the esperiments carried out in "Mohr, Felix, and Jan N. van Rijn. "Towards Model Selection using Learning Curve Cross-Validation." 8th ICML Workshop on Automated Machine Learning (AutoML). 2021." using the learnin curves and the predictive termination criterion described in "Domhan, Tobias, Jost Tobias Springenberg, and Frank Hutter. "Speeding up automatic hyperparameter optimization of deep neural networks by extrapolation of learning curves." Twenty-fourth international joint conference on artificial intelligence. 2015."
+In order to do this, we picked the code from https://github.com/automl/pylearningcurvepredictor and then we changed it to be used with Python 3 and thus to be tested on Sklearn learners and OpenML datasets.
+To run the experiments is sufficint to run all the cells of PTC.ipynb.
+Note that a single run takes a considerable amount of time due to the non-parallelizable learners of Sklearn and the code is originally ideated for deep neural networks only!
